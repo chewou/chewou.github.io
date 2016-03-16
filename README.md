@@ -1,35 +1,27 @@
-# Simpleyyt
+# HPSTR Jekyll Theme
 
-My blog based on Jekyll-Bootstrap.
+They say three times the charm, so here is another free responsive Jekyll theme for you. I've learned a ton since open sourcing [my first two themes](https://mademistakes.com/work/jekyll-themes/), and wanted to try a few new things this time around. If you've used my previous themes most of this should be familiar territory.
 
-## About Jekyll-Bootstrap
+**Compatible with Jekyll 3.0 and up.**
 
-For all usage and documentation please see: <http://jekyllbootstrap.com>
+## What HPSTR brings to the table:
 
-## About theme
+* Modern and minimal design.
+* Responsive templates for post, page, and post index `_layouts`. Looks great on mobile, tablet, and desktop devices.
+* Gracefully degrades in older browsers. Compatible with Internet Explorer 8+ and all modern browsers.  
+* Sweet animated menu with support for drop-downs.
+* Optional [Disqus](http://disqus.com) comments and social sharing links.
+* [Open Graph](https://developers.facebook.com/docs/opengraph/) and [Twitter Cards](https://dev.twitter.com/docs/cards) support for a better social sharing experience.
+* Simple [custom 404 page](http://mmistakes.github.io/hpstr-jekyll-theme/404.html) to get you started.
+* [Syntax highlighting](http://mmistakes.github.io/hpstr-jekyll-theme/code-highlighting-post/) stylesheet to make your code examples look snazzy
+* [Available in Spanish](https://github.com/cruznick/hpstr-jekyll-theme/tree/es). Thanks [@cruznick](https://github.com/cruznick)!
 
-This theme is the copy of [elementaryOS](http://elementaryos.org) portal page. Some features are imperfect, but I will make it more perfect.
+![HPSTR Theme Preview screenshot](http://mmistakes.github.io/hpstr-jekyll-theme/images/hpstr-jekyll-theme-preview.jpg)
 
-## Usage
+---
 
-You can edit the `_config.yml` file to change the setting of site. If you want to change avatar or favicon, just replace the files in `assets\themes\Snail\img`.
+## Getting Started
 
-## About excerpt
+HPSTR takes advantage of SCSS and data files to make customizing easier. These features require Jekyll 2.x and will not work with older versions of Jekyll.
 
-There are 2 ways of excerpt: "teaser" and "truncate_words" (Configurated in _config.yml).
-
- * "teaser": look for the More tag (<!--more-->) and create a teaser from the content that precedes the More tag.
-You must place "<!--more-->" at paragraph in post. The whole content will be displayed in homepage if no More tag found in post.
-
- * "truncate_words": generate an excerpt automatically by selecting the first 20 words of the post. It doesn't work well in some of no-English post.
-
-## Change Log
-
- * Add pagination.
- * Add new way of excerpt.
- * Download google fonts to the local.
- * Add google custom search engine.
-
-## License
-
-[MIT](http://opensource.org/licenses/MIT)
+To learn how to install and use this theme check out the [Setup Guide](https://mmistakes.github.io/hpstr-jekyll-theme/theme-setup/) for more information.
