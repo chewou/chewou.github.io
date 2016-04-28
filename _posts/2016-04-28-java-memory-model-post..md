@@ -5,4 +5,4 @@ title: java内存模型
 tags: java并发
 ---
 
-##java memory model
+## java memory model
